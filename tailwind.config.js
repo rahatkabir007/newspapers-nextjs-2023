@@ -15,7 +15,6 @@ module.exports = {
         'nlightblack': '#232428',
         'ndarkblue': '#2D3748',
         'nlightblue': "#d8edef"
-
       },
     },
   },
