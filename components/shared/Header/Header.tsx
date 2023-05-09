@@ -22,7 +22,7 @@ const Header: React.FC<Props> = (props) => {
     return (
         <div className='w-full fixed top-0 left-0'>
             <div className='flex items-center justify-between bg-nlightblue'>
-                <div className='container-x font-bold text-xl bg-nlightblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-4'>
+                <div className='container-x font-bold text-xl bg-nlightblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-3'>
                     <div>
                         <span className='text-3xl text-nblack mr-1'>
                             খবর সমগ্র
