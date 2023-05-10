@@ -13,11 +13,9 @@ const HomePage: React.FC<Props> = (props) => {
 
     return <>
         <div className='my-5 '>
-            <div className="flex flex-col lg:flex-row gap-5 container-x rounded">
+            <div className="flex flex-col lg:flex-row gap-5 container-x rounded ">
                 <div className='w-full lg:w-[80%]'>
                     <LeftLayout
-
-
                     />
                 </div>
                 <RightLayout />

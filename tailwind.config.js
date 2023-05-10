@@ -11,7 +11,7 @@ module.exports = {
       },
       colors: {
         'nblack': '#3B3B3B',
-        'ngrey': '#F7F7F7',
+        'ngrey': '#d1d1d1',
         'nlightblack': '#232428',
         'ndarkblue': '#2D3748',
         'nlightblue': "#d8edef"

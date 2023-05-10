@@ -1,23 +1,75 @@
 
 export class Jsondata {
     static categories = [
-        "banglaNewspapers",
-        "eBanglaNewspapers",
-        "onlineNewspapers",
-        "tvChannels",
-        "ctgNewspapers",
-        "ctgCoxOnlineNewspapers",
-        "localCoxOnline",
-        "localSylhet",
-        "localKhulna",
-        "localBarisal",
-        "otherLocalNewspapers",
-        "internationalNewspapers",
-        "internationalTvChannels",
-        "indianNewspapers",
-        "sharebazarNewspapers",
-        "stockeExchange",
-        "otherUsefulLinks"
+        {
+            title: "All Bangla Newspapers",
+            link: "banglaNewspapers",
+        },
+        {
+            title: "All E-Bangla Newspapers",
+            link: "eBanglaNewspapers",
+        },
+        {
+            title: "All Online Newspapers",
+            link: "onlineNewspapers",
+        },
+        {
+            title: "All TV Channels",
+            link: "tvChannels",
+        },
+        {
+            title: "All Local Chittagong Newspapers",
+            link: "ctgNewspapers",
+        },
+        {
+            title: "All Local Chittagong and Cox's Bazar Online Newspapers",
+            link: "ctgCoxOnlineNewspapers",
+        },
+        {
+            title: "All Local Cox's Bazar Newspapers",
+            link: "localCoxOnline",
+        },
+        {
+            title: "All Local Sylhet Newspapers",
+            link: "localSylhet",
+        },
+        {
+            title: "All Local Khulna Newspapers",
+            link: "localKhulna",
+        },
+        {
+            title: "All Local Barisal Newspapers",
+            link: "localBarisal",
+        },
+        {
+            title: "All Other Local Newspapers",
+            link: "otherLocalNewspapers",
+        },
+        {
+            title: "All International Newspapers",
+            link: "internationalNewspapers",
+        },
+        {
+            title: "All International TV Channels",
+            link: "internationalTvChannels",
+        },
+        {
+            title: "All Indian Newspapers",
+            link: "indianNewspapers",
+        },
+        {
+            title: "All Share Bazar Newspapers",
+            link: "sharebazarNewspapers",
+        },
+        {
+            title: "All Stock Exchange News",
+            link: "stockExchange",
+        },
+        {
+            title: "Other Useful Links",
+            link: "otherUsefulLinks",
+        },
+
     ]
     static banglaNewspapers = [
         {
