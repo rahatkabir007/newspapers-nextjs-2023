@@ -19,7 +19,7 @@ const RightLayout: React.FC<Props> = (props) => {
                 {
                     Jsondata.categories.map(item => {
                         return (
-                            <div className='text-lg font-medium text-ndarkblue cursor-pointer border-l-4 border-l-ndarkblue rounded pl-2'>
+                            <div className='text-lg font-medium text-ndarkblue cursor-pointer hover:border-b-3 hover:border-b-ndarkblue border-l-4 border-l-ndarkblue rounded pl-2'>
                                 <a href={`#${item.link}`}>{item.title}</a>
                             </div>
                         )

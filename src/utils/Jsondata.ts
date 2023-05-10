@@ -916,7 +916,7 @@ export class Jsondata {
             "title": "Channel I",
             "img": "https://www.allbanglanewspaper.xyz/assets/channel-i-tv.com.jpg",
             "category": "tvchannels",
-            "url": "channel-i-tv.com"
+            "url": "https://www.channelionline.com/"
         },
         {
             "title": "Independent Tv",

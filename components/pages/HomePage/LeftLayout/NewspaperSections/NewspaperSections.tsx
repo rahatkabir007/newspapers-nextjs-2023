@@ -19,7 +19,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Bangla Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.banglaNewspapers.map((item) => {
                             return (
@@ -35,7 +35,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All E-Bangla Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.eBanglaNewspapers.map((item) => {
                             return (
@@ -51,7 +51,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Online Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.onlineNewspapers.map((item) => {
                             return (
@@ -67,7 +67,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All TV Channels
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.tvChannels.map((item) => {
                             return (
@@ -83,7 +83,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Local Chittagong Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.ctgNewspapers.map((item) => {
                             return (
@@ -99,7 +99,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Local Chittagong and Cox's Bazar Online Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.ctgCoxOnlineNewspapers.map((item) => {
                             return (
@@ -115,7 +115,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Local Cox's Bazar Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.localCoxOnline.map((item) => {
                             return (
@@ -131,7 +131,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Local Sylhet Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.localSylhet.map((item) => {
                             return (
@@ -147,7 +147,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Local Khulna Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.localKhulna.map((item) => {
                             return (
@@ -163,7 +163,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Local Barisal Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.localBarisal.map((item) => {
                             return (
@@ -179,7 +179,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Other Local Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.otherLocalNewspapers.map((item) => {
                             return (
@@ -195,7 +195,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All International Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.internationalNewspapers.map((item) => {
                             return (
@@ -211,7 +211,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All International TV Channels
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.internationalTvChannels.map((item) => {
                             return (
@@ -227,7 +227,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Indian Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.indianNewspapers.map((item) => {
                             return (
@@ -243,7 +243,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Share Bazar Newspapers
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.sharebazarNewspapers.map((item) => {
                             return (
@@ -259,7 +259,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         All Stock Exchange News
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.stockeExchange.map((item) => {
                             return (
@@ -275,7 +275,7 @@ const NewspaperSections: React.FC<Props> = () => {
                         Other Useful Links
                     </span>
                 </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-10 md:gap-y-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-x-7 gap-y-5'>
                     {
                         Jsondata.otherUsefulLinks.map((item) => {
                             return (
