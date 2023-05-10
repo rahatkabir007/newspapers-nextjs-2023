@@ -15,7 +15,7 @@ const RightLayout: React.FC<Props> = (props) => {
             <div className='text-ndarkblue border-b-4 border-b-nblack text-xl font-bold'>
                 Browse Categories
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="grid grid-cols-1 gap-4  max-h-[150px] md:max-h-[200px] lg:max-h-full overflow-auto">
                 {
                     Jsondata.categories.map(item => {
                         return (
