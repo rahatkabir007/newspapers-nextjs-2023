@@ -11,7 +11,7 @@ const RightLayout: React.FC<Props> = (props) => {
     const states = useSelector(() => controller.states)
 
     return (
-        <div className='w-full lg:w-[20%]  flex flex-col gap-5 bg-white my-4 rounded max-h-[150px] md:max-h-[200px] lg:max-h-[85vh] overflow-scroll scrollbar-hide'>
+        <div className='w-full lg:w-[20%] flex flex-col gap-5 bg-white my-4 rounded max-h-[150px] md:max-h-[200px] lg:max-h-[85vh] overflow-scroll scrollbar'>
             <div className='text-ndarkblue px-3 pt-3 text-xl font-medium sticky top-0 left-0 bg-white'>
                 <p className='border-b-4 border-b-nblack '>Browse Categories</p>
             </div>
