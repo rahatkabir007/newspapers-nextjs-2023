@@ -50,7 +50,7 @@ body {
 
 .slick-list,
 .slick-track {
-  height: 8vh !important;
+  height: 5vh !important;
 }
 
 /* @media (min-width: 768px) {

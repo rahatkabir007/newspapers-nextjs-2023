@@ -13,7 +13,7 @@ const NewspaperSlider: React.FC<Props> = (props) => {
         slidesToScroll: 6,
         infinite: true,
         slidesToShow: 12,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         cssEase: "linear",
         arrows: false,
@@ -56,14 +56,14 @@ const NewspaperSlider: React.FC<Props> = (props) => {
 
 
     return (
-        <div className='bg-ndarkblue py-2'>
+        <div className='bg-ndarkblue pt-1 pb-2'>
             <Slider
                 {...settings}
                 className='container-x'
             >
                 {Jsondata.banglaNewspapers.map((item, ind) => {
                     return (
-                        <div className='pt-2 px-2'>
+                        <div className='pt-2 px-2' key={item.title}>
                             <div className='flex justify-center items-center'>
                                 <a href={`//${item.url}`} target='_blank'>
                                     <Image src={item.img} alt={item.title} width={100} height={100} className='bg-ngrey' />
