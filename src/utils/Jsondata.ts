@@ -106,7 +106,7 @@ export class Jsondata {
             "title": "Daily Amar Sangbad",
             "img": "https://www.allbanglanewspaper.xyz/assets/amar-sangbad.com.jpg",
             "category": "banglaNewspapers",
-            "url": "amar-sangbad.com"
+            "url": "http://www.amarsangbad.com/"
         },
         {
             "title": "Protidiner Sangbad",
@@ -184,7 +184,7 @@ export class Jsondata {
             "title": "Sangbad",
             "img": "https://www.allbanglanewspaper.xyz/assets/sangbad.png",
             "category": "banglaNewspapers",
-            "url": "thesangbad.net"
+            "url": "sangbad.net.bd/"
         },
         {
             "title": "Manob Kantha",
@@ -202,13 +202,13 @@ export class Jsondata {
             "title": "Bangladesh Journal",
             "img": "https://www.allbanglanewspaper.xyz/assets/bdjournal.jpg",
             "category": "banglaNewspapers",
-            "url": "bd-journal"
+            "url": "www.bd-journal.com/"
         },
         {
             "title": "Daily Dinkal",
             "img": "https://www.allbanglanewspaper.xyz/assets/dailydinkal.net.jpg",
             "category": "banglaNewspapers",
-            "url": "dailydinkal.net"
+            "url": "dainikdinkal.net/"
         },
         {
             "title": "Alokito Bangladesh",
@@ -244,7 +244,7 @@ export class Jsondata {
             "title": "Khabar Patra",
             "img": "https://www.allbanglanewspaper.xyz/assets/khabarpatrabd.com.jpg",
             "category": "banglaNewspapers",
-            "url": "khabarpatrabd.com"
+            "url": "khoborpatrabd.com"
         },
         {
             "title": "Vorer Pata",
@@ -340,7 +340,7 @@ export class Jsondata {
             "title": "Bd Bulletin",
             "img": "https://www.allbanglanewspaper.xyz/assets/bd-bulletin.jpg",
             "category": "banglaNewspapers",
-            "url": "bd-bulletin"
+            "url": "www.bd-bulletin.com/"
         },
         {
             "title": "Daily Jagran",
@@ -352,13 +352,13 @@ export class Jsondata {
             "title": "Business Standard",
             "img": "https://www.allbanglanewspaper.xyz/assets/tbsnews.net.png",
             "category": "banglaNewspapers",
-            "url": "the business standard"
+            "url": "www.tbsnews.net/"
         },
         {
             "title": "Dhaka Tribune",
             "img": "https://www.allbanglanewspaper.xyz/assets/dhakatribune.jpg",
             "category": "banglaNewspapers",
-            "url": "dhakatribune"
+            "url": "www.dhakatribune.com/"
         },
         {
             "title": "Business Post",
@@ -370,13 +370,13 @@ export class Jsondata {
             "title": "Ajker Patrika",
             "img": "https://www.allbanglanewspaper.xyz/assets/ajkerpatrika.jpg",
             "category": "banglaNewspapers",
-            "url": "ajkerpatrika"
+            "url": "www.ajkerpatrika.com/"
         },
         {
             "title": "Dainik Bangla",
             "img": "https://www.allbanglanewspaper.xyz/assets/dainik-bangla.jpg",
             "category": "banglaNewspapers",
-            "url": "dainik bangla"
+            "url": "www.dainikbangla.com.bd/"
         },
     ];
     static eBanglaNewspapers = [
@@ -390,7 +390,7 @@ export class Jsondata {
             "title": "E BD Pratidin",
             "img": "https://www.allbanglanewspaper.xyz/assets/bd-pratidin.com.jpg",
             "category": "ebanglaNewspapers",
-            "url": "e-bd-pratidin.com"
+            "url": "http://www.ebdpratidin.com/"
         },
         {
             "title": "E Jugantor",
@@ -456,37 +456,37 @@ export class Jsondata {
             "title": "E Daily Inqilab",
             "img": "https://www.allbanglanewspaper.xyz/assets/the-daily-inqilab.png",
             "category": "ebanglaNewspapers",
-            "url": "dailyinqilab epaper"
+            "url": "dailyinqilab.com/epaper/"
         },
         {
             "title": "Daily Star Epaper",
             "img": "https://www.allbanglanewspaper.xyz/assets/thedailystar.net.jpg",
             "category": "ebanglaNewspapers",
-            "url": "dailystar epaper"
+            "url": "profile.thedailystar.net/"
         },
         {
             "title": "E Business Standard",
             "img": "https://www.allbanglanewspaper.xyz/assets/tbsnews.net.png",
             "category": "ebanglaNewspapers",
-            "url": "the business standard epaper"
+            "url": "esharebiz.net/"
         },
         {
             "title": "E Share biz",
             "img": "https://www.allbanglanewspaper.xyz/assets/esharebiz.jpg",
             "category": "ebanglaNewspapers",
-            "url": "epaper sharebiz"
+            "url": "esharebiz.net/"
         },
         {
             "title": "E Bhorer Kagoj",
             "img": "https://www.allbanglanewspaper.xyz/assets/bhorer-kagoj-epaper.jpg",
             "category": "ebanglaNewspapers",
-            "url": "bhorer kagoj epaper"
+            "url": "ebhorerkagoj.com/"
         },
         {
             "title": "E Bangladesh Today",
             "img": "https://www.allbanglanewspaper.xyz/assets/thebangladeshtoday.com.jpg",
             "category": "ebanglaNewspapers",
-            "url": "e bangladesh today"
+            "url": "epaper.thebangladeshtoday.com/"
         },
     ];
     static onlineNewspapers = [
@@ -512,13 +512,13 @@ export class Jsondata {
             "title": "Priyo",
             "img": "https://www.allbanglanewspaper.xyz/assets/priyo.com.png",
             "category": "onlineNewspaper",
-            "url": "priyo.com"
+            "url": "news.priyo.com/"
         },
         {
             "title": "Amadershomoy",
             "img": "https://www.allbanglanewspaper.xyz/assets/amadershomoys.com.jpg",
             "category": "onlineNewspaper",
-            "url": "amadershomoys.com"
+            "url": "www.amadershomoy.com/"
         },
         {
             "title": "Bd24live",
@@ -584,7 +584,7 @@ export class Jsondata {
             "title": "Amar Desh",
             "img": "https://www.allbanglanewspaper.xyz/assets/amardesh-24.png",
             "category": "onlineNewspaper",
-            "url": "https://amar-desh24.com/"
+            "url": "amar-desh24.com/"
         },
         {
             "title": "Sarabangla",
@@ -596,13 +596,13 @@ export class Jsondata {
             "title": "Breaking News",
             "img": "https://www.allbanglanewspaper.xyz/assets/breakingnews.jpg",
             "category": "onlineNewspaper",
-            "url": "breakingnews.com.bd"
+            "url": "bnbd24.com/"
         },
         {
             "title": "Dhaka Times",
             "img": "https://www.allbanglanewspaper.xyz/assets/dhakatimes.com.bd.jpg",
             "category": "onlineNewspaper",
-            "url": "dhakatimes.com.bd"
+            "url": "thedhakatimes.com/"
         },
         {
             "title": "DMP News",
@@ -614,7 +614,7 @@ export class Jsondata {
             "title": "Natun Barta",
             "img": "https://www.allbanglanewspaper.xyz/assets/natunbarta.com.jpg",
             "category": "onlineNewspaper",
-            "url": "natunbarta.com"
+            "url": "www.natun-barta.com/"
         },
         {
             "title": "The Report 24",
@@ -634,18 +634,18 @@ export class Jsondata {
             "category": "onlineNewspaper",
             "url": "banglatelegraph.com"
         },
-        {
-            "title": "Bdview24",
-            "img": "https://www.allbanglanewspaper.xyz/assets/bdview24.com.jpg",
-            "category": "onlineNewspaper",
-            "url": "bdview24.com"
-        },
-        {
-            "title": "Bd Journal365",
-            "img": "https://www.allbanglanewspaper.xyz/assets/bdjournal365.com.jpg",
-            "category": "onlineNewspaper",
-            "url": "bdjournal365.com"
-        },
+        // {
+        //     "title": "Bdview24",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/bdview24.com.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "www.bdview24.com/"
+        // },
+        // {
+        //     "title": "Bd Journal365",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/bdjournal365.com.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "bdjournal365.com"
+        // },
         {
             "title": "Artho Suchak",
             "img": "https://www.allbanglanewspaper.xyz/assets/arthosuchak.com.jpg",
@@ -680,14 +680,14 @@ export class Jsondata {
             "title": "Nagorik Kantha",
             "img": "https://www.allbanglanewspaper.xyz/assets/nagorikkantha.com.jpg",
             "category": "onlineNewspaper",
-            "url": "nagorikkantha.com"
+            "url": "www.nagorikkontho.com/"
         },
-        {
-            "title": "Media Khabor",
-            "img": "https://www.allbanglanewspaper.xyz/assets/mediakhabor.com.jpg",
-            "category": "onlineNewspaper",
-            "url": "mediakhabor.com"
-        },
+        // {
+        //     "title": "Media Khabor",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/mediakhabor.com.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "mediakhabor.com"
+        // },
         {
             "title": "Sotta Sangbad",
             "img": "https://www.allbanglanewspaper.xyz/assets/ajkersottasangbad24.com.jpg",
@@ -712,24 +712,24 @@ export class Jsondata {
             "category": "onlineNewspaper",
             "url": "aparadhchokh24bd.com"
         },
-        {
-            "title": "Times World",
-            "img": "https://www.allbanglanewspaper.xyz/assets/timesworld24.com.jpg",
-            "category": "onlineNewspaper",
-            "url": "timesworld24.com"
-        },
+        // {
+        //     "title": "Times World",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/timesworld24.com.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "timesworld24.com"
+        // },
         {
             "title": "Desh News",
             "img": "https://www.allbanglanewspaper.xyz/assets/deshnews.net.jpg",
             "category": "onlineNewspaper",
             "url": "deshnews.net"
         },
-        {
-            "title": "RTNN",
-            "img": "https://www.allbanglanewspaper.xyz/assets/rtnn.net.jpg",
-            "category": "onlineNewspaper",
-            "url": "rtnn.net"
-        },
+        // {
+        //     "title": "RTNN",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/rtnn.net.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "rtnn.net"
+        // },
         {
             "title": "Desher Sangbad",
             "img": "https://www.allbanglanewspaper.xyz/assets/deshersangbad.com.jpg",
@@ -758,7 +758,7 @@ export class Jsondata {
             "title": "Prime News",
             "img": "https://www.allbanglanewspaper.xyz/assets/primenewsbd.com.jpg",
             "category": "onlineNewspaper",
-            "url": "primenewsbd.com"
+            "url": "primenewsbd.net/"
         },
         {
             "title": "MTNews",
@@ -772,12 +772,12 @@ export class Jsondata {
             "category": "onlineNewspaper",
             "url": "deshebideshe.com"
         },
-        {
-            "title": "Boichitra News",
-            "img": "https://www.allbanglanewspaper.xyz/assets/boichitranews24.com.jpg",
-            "category": "onlineNewspaper",
-            "url": "boichitranews24.com"
-        },
+        // {
+        //     "title": "Boichitra News",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/boichitranews24.com.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "boichitranews24.com"
+        // },
         {
             "title": "Barta Bangla",
             "img": "https://www.allbanglanewspaper.xyz/assets/bartabangla.com.jpg",
@@ -824,7 +824,8 @@ export class Jsondata {
             "title": "Crime Reporter",
             "img": "https://www.allbanglanewspaper.xyz/assets/crimereporter24.com.jpg",
             "category": "onlineNewspaper",
-            "url": "crimereporter24.com"
+            // "url": "crimereporter24.com"
+            "url": "www.crimereport-24.com/"
         },
         {
             "title": "Khobor Protidin",
@@ -842,7 +843,7 @@ export class Jsondata {
             "title": "Shersha News",
             "img": "https://www.allbanglanewspaper.xyz/assets/shershanews24.com.png",
             "category": "onlineNewspaper",
-            "url": "shershanews24.com"
+            "url": "www.sheershanews24.com/"
         },
         {
             "title": "Bbc 24 News",
@@ -860,14 +861,14 @@ export class Jsondata {
             "title": "Bangla Kagoj24",
             "img": "https://www.allbanglanewspaper.xyz/assets/banglakagoj24.com.jpg",
             "category": "onlineNewspaper",
-            "url": "banglakagoj24.com"
+            "url": "www.banglakagoj.com/"
         },
-        {
-            "title": "Latest bd news",
-            "img": "https://www.allbanglanewspaper.xyz/assets/latestbdnews.com.jpg",
-            "category": "onlineNewspaper",
-            "url": "latestbdnews.com"
-        },
+        // {
+        //     "title": "Latest bd news",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/latestbdnews.com.jpg",
+        //     "category": "onlineNewspaper",
+        //     "url": "latestbdnews.com"
+        // },
         {
             "title": "Barta Bazar",
             "img": "https://www.allbanglanewspaper.xyz/assets/bartabazar.com.jpg",
@@ -890,7 +891,7 @@ export class Jsondata {
             "title": "Sada Kalo",
             "img": "https://www.allbanglanewspaper.xyz/assets/sadakalo24.com.jpg",
             "category": "onlineNewspaper",
-            "url": "sadakalo24.com"
+            "url": "www.dainiksadakalo.com/"
         },
         {
             "title": "PBD",
@@ -916,7 +917,7 @@ export class Jsondata {
             "title": "Channel I",
             "img": "https://www.allbanglanewspaper.xyz/assets/channel-i-tv.com.jpg",
             "category": "tvchannels",
-            "url": "https://www.channelionline.com/"
+            "url": "www.channelionline.com/"
         },
         {
             "title": "Independent Tv",
@@ -934,7 +935,7 @@ export class Jsondata {
             "title": "NTV BD",
             "img": "https://www.allbanglanewspaper.xyz/assets/ntvbd.com.jpg",
             "category": "tvchannels",
-            "url": "ntvbd.tv"
+            "url": "www.ntvbd.com/"
         },
         {
             "title": "Channel 24 BD",
@@ -964,7 +965,7 @@ export class Jsondata {
             "title": "Jamuna TV",
             "img": "https://www.allbanglanewspaper.xyz/assets/jamunatelevision.com.jpg",
             "category": "tvchannels",
-            "url": "jamunatelevision.com"
+            "url": "www.jamuna.tv/"
         },
         {
             "title": "SATV",
@@ -1006,7 +1007,7 @@ export class Jsondata {
             "title": "Channel9 BD",
             "img": "https://www.allbanglanewspaper.xyz/assets/channelninebd.tv.jpg",
             "category": "tvchannels",
-            "url": "channelninebd.tv"
+            "url": "channelninebd.tv/"
         },
         {
             "title": "My TV",
@@ -1024,7 +1025,7 @@ export class Jsondata {
             "title": "Mohona TV",
             "img": "https://www.allbanglanewspaper.xyz/assets/mohonatv.com.jpg",
             "category": "tvchannels",
-            "url": "mohonatv.com"
+            "url": "mohona.tv/"
         },
         {
             "title": "Gazi TV (GTV)",
@@ -1134,7 +1135,7 @@ export class Jsondata {
             "title": "Khagrachari News",
             "img": "https://www.allbanglanewspaper.xyz/assets/khagracharinews.jpg",
             "category": "localCtgOnline",
-            "url": "khagracharinews.com"
+            "url": "www.dainikkhagrachari.com/"
         },
         {
             "title": "Raozan News",
@@ -1254,12 +1255,12 @@ export class Jsondata {
             "category": "localCoxOnline",
             "url": "teknafnews.com"
         },
-        {
-            "title": "Saintmartin News",
-            "img": "https://www.allbanglanewspaper.xyz/assets/saintmartinbdnews.jpg",
-            "category": "localCoxOnline",
-            "url": "saintmartinbdnews.com"
-        },
+        // {
+        //     "title": "Saintmartin News",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/saintmartinbdnews.jpg",
+        //     "category": "localCoxOnline",
+        //     "url": "saintmartinbdnews.com"
+        // },
         {
             "title": "Amader Ramu",
             "img": "https://www.allbanglanewspaper.xyz/assets/amaderramu.jpg",
@@ -1286,24 +1287,24 @@ export class Jsondata {
             "category": "localSylhet",
             "url": "dailykhowai.com"
         },
-        {
-            "title": "Sylheter Sokal",
-            "img": "https://www.allbanglanewspaper.xyz/assets/sylhetersokal.gif",
-            "category": "localSylhet",
-            "url": "sylhetersokal.com"
-        },
+        // {
+        //     "title": "Sylheter Sokal",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/sylhetersokal.gif",
+        //     "category": "localSylhet",
+        //     "url": "sylhetersokal.com"
+        // },
         {
             "title": "Sylheter Dak",
             "img": "https://www.allbanglanewspaper.xyz/assets/sylheterdak.gif",
             "category": "localSylhet",
             "url": "sylheterdak.com.bd"
         },
-        {
-            "title": "Amader Sylhet",
-            "img": "https://www.allbanglanewspaper.xyz/assets/amadersylhet.gif",
-            "category": "localSylhet",
-            "url": "amadersylhet.com"
-        },
+        // {
+        //     "title": "Amader Sylhet",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/amadersylhet.gif",
+        //     "category": "localSylhet",
+        //     "url": "amadersylhet.com"
+        // },
     ];
     static localKhulna = [
         {
@@ -1350,24 +1351,24 @@ export class Jsondata {
             "category": "localBarisal",
             "url": "amaderbarisal.com"
         },
-        {
-            "title": "Barisal News",
-            "img": "https://www.allbanglanewspaper.xyz/assets/barisalnews.com.jpg",
-            "category": "localBarisal",
-            "url": "barisalnews.com"
-        },
-        {
-            "title": "Ajkerbarta",
-            "img": "https://www.allbanglanewspaper.xyz/assets/ajker-barta.webp",
-            "category": "localBarisal",
-            "url": "ajkerbarta.com"
-        },
-        {
-            "title": "Barisal Today",
-            "img": "https://www.allbanglanewspaper.xyz/assets/barisal-today.webp",
-            "category": "localBarisal",
-            "url": "barisaltoday.com"
-        },
+        // {
+        //     "title": "Barisal News",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/barisalnews.com.jpg",
+        //     "category": "localBarisal",
+        //     "url": "barisalnews.com"
+        // },
+        // {
+        //     "title": "Ajkerbarta",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/ajker-barta.webp",
+        //     "category": "localBarisal",
+        //     "url": "ajkerbarta.com"
+        // },
+        // {
+        //     "title": "Barisal Today",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/barisal-today.webp",
+        //     "category": "localBarisal",
+        //     "url": "barisaltoday.com"
+        // },
         {
             "title": "Matobad",
             "img": "https://www.allbanglanewspaper.xyz/assets/matobad.webp",
@@ -1404,12 +1405,12 @@ export class Jsondata {
             "category": "localBarisal",
             "url": "kuakatanews.com"
         },
-        {
-            "title": "Chandpur Kantho",
-            "img": "https://www.allbanglanewspaper.xyz/assets/chandpur-kantho.webp",
-            "category": "localBarisal",
-            "url": "chandpur-kantho.com"
-        },
+        // {
+        //     "title": "Chandpur Kantho",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/chandpur-kantho.webp",
+        //     "category": "localBarisal",
+        //     "url": "chandpur-kantho.com"
+        // },
         {
             "title": "Ajker Bhola",
             "img": "https://www.allbanglanewspaper.xyz/assets/ajkerbhola.webp",
@@ -1458,7 +1459,7 @@ export class Jsondata {
             "title": "Uttorpurbo",
             "img": "https://www.allbanglanewspaper.xyz/assets/uttorpurbo.com.jpg",
             "category": "otherLocalNewspapers",
-            "url": "uttorpurbo.com"
+            "url": "euttorpurbo.com/"
         },
         {
             "title": "Ajker Jamalpur",
@@ -1472,12 +1473,12 @@ export class Jsondata {
             "category": "otherLocalNewspapers",
             "url": "surmatimes.com"
         },
-        {
-            "title": "Dinajpur News",
-            "img": "https://www.allbanglanewspaper.xyz/assets/dinajpurnews.com.png",
-            "category": "otherLocalNewspapers",
-            "url": "dinajpurnews.com"
-        },
+        // {
+        //     "title": "Dinajpur News",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/dinajpurnews.com.png",
+        //     "category": "otherLocalNewspapers",
+        //     "url": "dinajpurnews.com"
+        // },
         {
             "title": "Chadpur Times",
             "img": "https://www.allbanglanewspaper.xyz/assets/chandpurtimes.com.jpg",
@@ -1490,24 +1491,24 @@ export class Jsondata {
             "category": "otherLocalNewspapers",
             "url": "muktokhobor24.com"
         },
-        {
-            "title": "Bogra Sangbad",
-            "img": "https://www.allbanglanewspaper.xyz/assets/bograsangbad.com.jpg",
-            "category": "otherLocalNewspapers",
-            "url": "bograsangbad.com"
-        },
+        // {
+        //     "title": "Bogra Sangbad",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/bograsangbad.com.jpg",
+        //     "category": "otherLocalNewspapers",
+        //     "url": "bograsangbad.com"
+        // },
         {
             "title": "Rajshahir Somoy",
             "img": "https://www.allbanglanewspaper.xyz/assets/rajshahirsomoy.com.jpg",
             "category": "otherLocalNewspapers",
             "url": "rajshahirsomoy.com"
         },
-        {
-            "title": "Chandpurweb",
-            "img": "https://www.allbanglanewspaper.xyz/assets/chandpurweb.com.jpg",
-            "category": "otherLocalNewspapers",
-            "url": "chandpurweb.com"
-        },
+        // {
+        //     "title": "Chandpurweb",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/chandpurweb.com.jpg",
+        //     "category": "otherLocalNewspapers",
+        //     "url": "chandpurweb.com"
+        // },
         {
             "title": "Sylhet Express",
             "img": "https://www.allbanglanewspaper.xyz/assets/sylhetexpress.com.jpg",
@@ -1532,12 +1533,12 @@ export class Jsondata {
             "category": "otherLocalNewspapers",
             "url": "amarnoakhali.com"
         },
-        {
-            "title": "Andoloner Bazar",
-            "img": "https://www.allbanglanewspaper.xyz/assets/dailyandolonerbazar.com.png",
-            "category": "otherLocalNewspapers",
-            "url": "dailyandolonerbazar.com"
-        },
+        // {
+        //     "title": "Andoloner Bazar",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/dailyandolonerbazar.com.png",
+        //     "category": "otherLocalNewspapers",
+        //     "url": "dailyandolonerbazar.com"
+        // },
         {
             "title": "Mymensingh Pratidin",
             "img": "https://www.allbanglanewspaper.xyz/assets/mymensinghpratidin.com.png",
@@ -1550,7 +1551,7 @@ export class Jsondata {
             "title": "AFP",
             "img": "https://www.allbanglanewspaper.xyz/assets/afp.com.jpg",
             "category": "internationalNewspapers",
-            "url": "afp.com"
+            "url": "www.afp.com/"
         },
         {
             "title": "The Guardian",
@@ -1606,12 +1607,12 @@ export class Jsondata {
             "category": "internationalNewspapers",
             "url": "thebangladeshtoday.com"
         },
-        {
-            "title": "News Today",
-            "img": "https://www.allbanglanewspaper.xyz/assets/newstoday.com.bd.jpg",
-            "category": "internationalNewspapers",
-            "url": "newstoday.com.bd"
-        },
+        // {
+        //     "title": "News Today",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/newstoday.com.bd.jpg",
+        //     "category": "internationalNewspapers",
+        //     "url": "newstoday.com.bd"
+        // },
         {
             "title": "Financial Express",
             "img": "https://www.allbanglanewspaper.xyz/assets/thefinancialexpress-bd.com.jpg",
@@ -1702,7 +1703,7 @@ export class Jsondata {
             "title": "CCTV",
             "img": "https://www.allbanglanewspaper.xyz/assets/english.cntv.cn.jpg",
             "category": "internationalTVChannels",
-            "url": "english.cntv.cn"
+            "url": "english.cctv.com/"
         },
     ];
     static indianNewspapers = [
@@ -1716,25 +1717,25 @@ export class Jsondata {
             "title": "Aaj Kaal",
             "img": "https://www.allbanglanewspaper.xyz/assets/aajkaal.net.jpg",
             "category": "indianNewspapers",
-            "url": "aajkaal.net"
+            "url": "aajkaal.in/"
         },
         {
             "title": "Kolkata24x7",
             "img": "https://www.allbanglanewspaper.xyz/assets/kolkata24x7.com.png",
             "category": "indianNewspapers",
-            "url": "kolkata24x7.com"
+            "url": "kolkata24x7.in/"
         },
         {
             "title": "24 Ghanta",
             "img": "https://www.allbanglanewspaper.xyz/assets/24ghanta.com.png",
             "category": "indianNewspapers",
-            "url": "zeenews bengali"
+            "url": "zeenews.india.com/bengali/"
         },
         {
             "title": "ABP Ananda",
             "img": "https://www.allbanglanewspaper.xyz/assets/abpananda.abplive.in.png",
             "category": "indianNewspapers",
-            "url": "abpananda"
+            "url": "abpananda.abplive.in/"
         },
         {
             "title": "NDTV Bengali",
@@ -1770,7 +1771,7 @@ export class Jsondata {
             "title": "Asomiya Pratidin",
             "img": "https://www.allbanglanewspaper.xyz/assets/asomiyapratidin.co.in.jpg",
             "category": "indianNewspapers",
-            "url": "asomiyapratidin.co.in"
+            "url": "www.asomiyapratidin.in/"
         },
         {
             "title": "Nababarta Prasanga",
@@ -1852,12 +1853,12 @@ export class Jsondata {
             "category": "sharebazarNewspapers",
             "url": "sharebiz.net"
         },
-        {
-            "title": "Stockbangladesh",
-            "img": "https://www.allbanglanewspaper.xyz/assets/stock-bangladesh.png",
-            "category": "sharebazarNewspapers",
-            "url": "dailystockbangladesh.com"
-        },
+        // {
+        //     "title": "Stockbangladesh",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/stock-bangladesh.png",
+        //     "category": "sharebazarNewspapers",
+        //     "url": "dailystockbangladesh.com"
+        // },
         {
             "title": "Financial Express",
             "img": "https://www.allbanglanewspaper.xyz/assets/thefinancialexpress-bd.com.jpg",
@@ -1924,12 +1925,12 @@ export class Jsondata {
             "category": "sharebazarNewspapers",
             "url": "sharebusiness24.com"
         },
-        {
-            "title": "Biniogbarta",
-            "img": "https://www.allbanglanewspaper.xyz/assets/biniogbarta.png",
-            "category": "sharebazarNewspapers",
-            "url": "biniogbarta.com"
-        },
+        // {
+        //     "title": "Biniogbarta",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/biniogbarta.png",
+        //     "category": "sharebazarNewspapers",
+        //     "url": "biniogbarta.com"
+        // },
         {
             "title": "Energy Bangla",
             "img": "https://www.allbanglanewspaper.xyz/assets/energy-bangla-news.jpg",
@@ -1966,12 +1967,12 @@ export class Jsondata {
             "category": "sharebazarNewspapers",
             "url": "insurancenewsbd.com"
         },
-        {
-            "title": "Insurance Bd",
-            "img": "https://www.allbanglanewspaper.xyz/assets/insurancebd.png",
-            "category": "sharebazarNewspapers",
-            "url": "insurancebd.news"
-        },
+        // {
+        //     "title": "Insurance Bd",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/insurancebd.png",
+        //     "category": "sharebazarNewspapers",
+        //     "url": "insurancebd.news"
+        // },
         {
             "title": "Bank Bima Arthonity",
             "img": "https://www.allbanglanewspaper.xyz/assets/bankbimaarthonity.png",
@@ -2010,79 +2011,79 @@ export class Jsondata {
             "title": "Bangladesh Bank",
             "img": "https://www.allbanglanewspaper.xyz/assets/bangladesh-bank.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://bb.org.bd/"
+            "url": "bb.org.bd"
         },
         {
             "title": "CDDBL",
             "img": "https://www.allbanglanewspaper.xyz/assets/cdbl.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://cdbl.com.bd/"
+            "url": "cdbl.com.bd/"
         },
-        {
-            "title": "Stock Bangladesh",
-            "img": "https://www.allbanglanewspaper.xyz/assets/stockbangladesh.jpg",
-            "category": "otherUsefulLinks",
-            "url": "https://stockbangladesh.com/"
-        },
+        // {
+        //     "title": "Stock Bangladesh",
+        //     "img": "https://www.allbanglanewspaper.xyz/assets/stockbangladesh.jpg",
+        //     "category": "otherUsefulLinks",
+        //     "url": "stockbangladesh.com/"
+        // },
         {
             "title": "Amar Stock",
             "img": "https://www.allbanglanewspaper.xyz/assets/amarstock.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://www.amarstock.com/"
+            "url": "www.amarstock.com/"
         },
         {
             "title": "Lanka Bangla Finance",
             "img": "https://www.allbanglanewspaper.xyz/assets/lankabanglafinance.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://lankabd.com/"
+            "url": "lankabd.com/"
         },
         {
             "title": "BIASL",
             "img": "https://www.allbanglanewspaper.xyz/assets/biasl.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://biasl.net/"
+            "url": "biasl.net/"
         },
         {
             "title": "BRAC EPL",
             "img": "https://www.allbanglanewspaper.xyz/assets/brac-epl.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://bracepl.com/"
+            "url": "bracepl.com/"
         },
         {
             "title": "EBL",
             "img": "https://www.allbanglanewspaper.xyz/assets/ebl.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://www.eblsecurities.com/"
+            "url": "www.eblsecurities.com/"
         },
         {
             "title": "Sheltech",
             "img": "https://www.allbanglanewspaper.xyz/assets/sheltech.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://sheltechbrokerage.com/"
+            "url": "sheltechbrokerage.com/"
         },
         {
             "title": "City Brokarage",
             "img": "https://www.allbanglanewspaper.xyz/assets/citybrokarage.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://citybrokerageltd.com/"
+            "url": "citybrokerageltd.com/"
         },
         {
             "title": "Business Insider",
             "img": "https://www.allbanglanewspaper.xyz/assets/businessinsider.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://www.businessinsider.com/"
+            "url": "www.businessinsider.com/"
         },
         {
             "title": "Economist",
             "img": "https://www.allbanglanewspaper.xyz/assets/economist.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://www.economist.com/"
+            "url": "www.economist.com/"
         },
         {
             "title": "Bloomberg",
             "img": "https://www.allbanglanewspaper.xyz/assets/bloomberg.jpg",
             "category": "otherUsefulLinks",
-            "url": "https://www.bloomberg.com/"
+            "url": "www.bloomberg.com/"
         }
     ]
 

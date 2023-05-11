@@ -12,7 +12,7 @@ const HomePage: React.FC<Props> = (props) => {
     const states = useSelector(() => controller.states)
 
     return <>
-        <div className='my-5 '>
+        <div className='my-2'>
             <div className="flex flex-col-reverse lg:flex-row-reverse gap-x-5 gap-y-0 container-x rounded items-start">
                 <div className='w-full lg:w-[80%]'>
                     <LeftLayout

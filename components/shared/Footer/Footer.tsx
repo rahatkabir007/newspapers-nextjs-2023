@@ -9,8 +9,10 @@ const Footer: React.FC<Props> = (props) => {
 
 
     return (
-        <div>
-            Footer
+        <div className='bg-nlightblue py-2 flex justify-center items-center'>
+            <div>
+                <span className='text-pscdarkblue font-bold'>Copyright © 2022 - খবর সমগ্র</span>
+            </div>
         </div>
     )
 }
