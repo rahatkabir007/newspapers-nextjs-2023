@@ -7,6 +7,8 @@ import { ThemeProvider } from "next-themes";
 import Header from "../components/shared/Header/Header";
 import Head from "next/head";
 import Footer from "../components/shared/Footer/Footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function MyApp(props: AppProps) {
   const { Component, pageProps } = props;

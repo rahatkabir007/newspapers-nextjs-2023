@@ -12,10 +12,10 @@ const Header: React.FC<Props> = (props) => {
     return (
         <div className='w-full'>
             <div className='flex items-center justify-between bg-nlightblue'>
-                <div className='container-x font-bold text-xl bg-nlightblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-3'>
+                <div className='container-x font-bold text-xl bg-nlightblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-4'>
                     <div>
                         <Link href="/">
-                            <span className='text-3xl text-nblack mr-1'>
+                            <span className='text-3xl text-nblack mr-1 tracking-widest'>
                                 খবর সমগ্র
                             </span>
                         </Link>
