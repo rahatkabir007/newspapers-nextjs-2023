@@ -1,7 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import { useSelector } from 'react-redux'
-import { controller } from '../../../src/state/StateController'
-import { useTheme } from 'next-themes';
+import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 
