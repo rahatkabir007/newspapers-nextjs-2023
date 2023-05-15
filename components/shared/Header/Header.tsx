@@ -12,7 +12,7 @@ const Header: React.FC<Props> = (props) => {
 
     const states = useSelector(() => controller.states)
     let [open, setOpen] = useState(false);
-    const genericHamburgerLine = `h-1 w-7  rounded-full bg-black transition ease transform duration-500`;
+    const genericHamburgerLine = `h-1 w-7 rounded-full bg-white transition ease transform duration-500`;
 
 
     let Links = [
@@ -24,9 +24,9 @@ const Header: React.FC<Props> = (props) => {
     return (
         <div className='w-full sticky top-0 left-0 z-10'>
             <div className='flex items-center justify-between bg-ndarkblue'>
-                <div className='container-x font-bold text-xl bg-ndarkblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-3'>
+                <div className='container-x font-bold text-xl bg-ndarkblue cursor-pointer flex justify-between items-center text-gray-800 py-3 px-3 lg:px-0'>
                     <div>
-                        <Link href="/"> <span className='text-2xl text-white mr-1'>
+                        <Link href="/"> <span className='text-2xl text-white mr-1 font-ubuntu'>
                             NEWS HUB
                         </span></Link>
 
@@ -57,11 +57,11 @@ const Header: React.FC<Props> = (props) => {
                             </button>
                         </div>
                         <div>
-                            <ul className={`block lg:hidden lg:items-center lg:pb-0 pb-12 absolute lg:static bg-white lg:bg-transparent lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-16' : 'top-[-990px]'}`}>
+                            <ul className={`block lg:hidden lg:items-center lg:pb-0 absolute lg:static bg-white lg:bg-transparent lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in max-h-[400px] overflow-scroll scrollbar ${open ? 'top-16' : 'top-[-320px]'}`}>
                                 {
                                     Jsondata.categories.map((item) => (
-                                        <li key={item.title} className='lg:mr-8 text-xl lg:my-0 my-7'>
-                                            <a href={item.link} className='text-gray-800 hover:text-gray-400 duration-500'>{item.title}</a>
+                                        <li onClick={() => setOpen(!open)} key={item.title} className='lg:mr-8 text-xl lg:my-0 my-4'>
+                                            <a href={`#${item.link}`} className='text-ndarkblue font-poppins hover:text-gray-600 duration-500 text-[13px] font-semibold'>{item.title}</a>
                                         </li>
                                     ))
                                 }

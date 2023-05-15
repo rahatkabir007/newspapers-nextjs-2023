@@ -17,7 +17,7 @@ const HomePage: React.FC<Props> = (props) => {
     return <>
         <NewspaperSlider />
 
-        <div className="mt-10 mb-3" >
+        <div className="mt-10 mb-3 hidden lg:flex" >
             <div className='bg-white rounded my-2 container-x p-4'>
                 <Category />
             </div>

@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         'poppins': ['Poppins'],
         'inter': ['Inter'],
+        'coromorant': ['Cormorant Garamond'],
+        'monda': ['Monda'],
+        'ubuntu': ['Ubuntu']
       },
       colors: {
         'nblack': '#3B3B3B',

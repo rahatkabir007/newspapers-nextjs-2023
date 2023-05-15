@@ -14,26 +14,29 @@ const NewspaperSections: React.FC<Props> = () => {
     return (
         <>
             {/* flex flex-col gap-3 shadow-md py-5 px-3 bg-white rounded-md */}
-            <div className="flex flex-col gap-3 p-5" id='banglaNewspapers'>
-                <div className="pl-5 py-4 bg-ndarkblue rounded ">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
-                        All Bangla Newspapers
-                    </span>
-                </div>
-                <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-x-7 gap-y-5 mt-3'>
-                    {
-                        Jsondata.banglaNewspapers.map((item) => {
-                            return (
-                                <NewspaperCard item={item} />
-                            )
-                        })
-                    }
+            <div id='banglaNewspapers'>
+
+                <div className="flex flex-col gap-3 p-5" >
+                    <div className="pl-5 py-4 bg-ndarkblue rounded ">
+                        <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
+                            All Bangla Newspapers
+                        </span>
+                    </div>
+                    <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-x-7 gap-y-5 mt-3'>
+                        {
+                            Jsondata.banglaNewspapers.map((item) => {
+                                return (
+                                    <NewspaperCard item={item} />
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
 
             <div className="flex flex-col gap-3 p-5" id='eBanglaNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded ">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All E-Bangla Newspapers
                     </span>
                 </div>
@@ -49,7 +52,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='onlineNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded ">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Online Newspapers
                     </span>
                 </div>
@@ -65,7 +68,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='tvChannels'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All TV Channels
                     </span>
                 </div>
@@ -81,7 +84,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='ctgNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Local Chittagong Newspapers
                     </span>
                 </div>
@@ -97,7 +100,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='ctgCoxOnlineNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Local Chittagong and Cox's Bazar Online Newspapers
                     </span>
                 </div>
@@ -113,7 +116,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='localCoxOnline'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Local Cox's Bazar Newspapers
                     </span>
                 </div>
@@ -129,7 +132,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='localSylhet'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Local Sylhet Newspapers
                     </span>
                 </div>
@@ -145,7 +148,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='localKhulna'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Local Khulna Newspapers
                     </span>
                 </div>
@@ -161,7 +164,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='localBarisal'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Local Barisal Newspapers
                     </span>
                 </div>
@@ -177,7 +180,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='otherLocalNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Other Local Newspapers
                     </span>
                 </div>
@@ -193,7 +196,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='internationalNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All International Newspapers
                     </span>
                 </div>
@@ -209,7 +212,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='internationalTvChannels'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All International TV Channels
                     </span>
                 </div>
@@ -225,7 +228,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='indianNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Indian Newspapers
                     </span>
                 </div>
@@ -241,7 +244,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='sharebazarNewspapers'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Share Bazar Newspapers
                     </span>
                 </div>
@@ -257,7 +260,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='stockExchange'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         All Stock Exchange News
                     </span>
                 </div>
@@ -273,7 +276,7 @@ const NewspaperSections: React.FC<Props> = () => {
             </div>
             <div className="flex flex-col gap-3 p-5" id='otherUsefulLinks'>
                 <div className="pl-5 py-4 bg-ndarkblue rounded">
-                    <span className='text-white text-lg lg:text-2xl font-bold'>
+                    <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
                         Other Useful Links
                     </span>
                 </div>

@@ -29,7 +29,7 @@ export default function MyApp(props: AppProps) {
         <Header />
         <React.Fragment>
           <Head>
-            <title>খবর সমগ্র</title>
+            <title>NEWS HUB</title>
           </Head>
           <Component {...pageProps} />
         </React.Fragment>
