@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins'],
+        'inter': ['Inter'],
       },
       colors: {
         'nblack': '#3B3B3B',

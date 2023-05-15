@@ -13,7 +13,7 @@ const LeftLayout: React.FC<Props> = (props) => {
     const states = useSelector(() => controller.states)
 
     return (
-        <div className='flex flex-col gap-5 my-4 max-h-[80vh] overflow-scroll scrollbar-hide bg-white rounded'>
+        <div className='w-full lg:w-[80%] max-h-[80vh] overflow-scroll scrollbar-hide flex flex-col gap-5 my-4 bg-white rounded'>
             <NewspaperSections />
         </div>
     )
