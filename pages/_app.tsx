@@ -9,6 +9,7 @@ import Head from "next/head";
 import Footer from "../components/shared/Footer/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ScrollToTop from "../components/helpers/ScrollToTop/ScrollToTop";
 
 export default function MyApp(props: AppProps) {
   const { Component, pageProps } = props;
@@ -32,6 +33,7 @@ export default function MyApp(props: AppProps) {
           </Head>
           <Component {...pageProps} />
         </React.Fragment>
+        <ScrollToTop />
         <Footer />
       </Provider>
     </ThemeProvider>

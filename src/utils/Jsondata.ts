@@ -22,7 +22,8 @@ export class Jsondata {
             link: "ctgNewspapers",
         },
         {
-            title: "All Local Chittagong and Cox's Bazar Online Newspapers",
+            // title: "All Local Chittagong and Cox's Bazar Online Newspapers",
+            title: "All Chittagong Online Newspapers",
             link: "ctgCoxOnlineNewspapers",
         },
         {

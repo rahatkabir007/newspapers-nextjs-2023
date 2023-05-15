@@ -9,11 +9,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace;
-  background-image: url("https://i.ibb.co/wY4jtq6/Top-10-Best-Bangla-Newspapers-of-Bangladesh-1.jpg");
+  /* font-family: 'Roboto Mono', monospace; */
+  background-color: #eceff3;
+  /* background-image: url("https://i.ibb.co/wY4jtq6/Top-10-Best-Bangla-Newspapers-of-Bangladesh-1.jpg");
   background-size: auto;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: repeat; */
   /* position: relative; */
 }
 
@@ -21,8 +22,8 @@ body {
   max-width: 1440px !important;
   width: 100%;
   margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
 }
 
 .scrollbar-hide::-webkit-scrollbar {

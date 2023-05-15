@@ -23,11 +23,11 @@ const Header: React.FC<Props> = (props) => {
 
     return (
         <div className='w-full sticky top-0 left-0 z-10'>
-            <div className='flex items-center justify-between bg-nlightblue'>
-                <div className='container-x font-bold text-xl bg-nlightblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-4'>
+            <div className='flex items-center justify-between bg-ndarkblue'>
+                <div className='container-x font-bold text-xl bg-ndarkblue cursor-pointer flex justify-between items-center font-[Poppins]text-gray-800 py-3'>
                     <div>
-                        <Link href="/"> <span className='text-3xl text-nblack mr-1'>
-                            খবর সমগ্র
+                        <Link href="/"> <span className='text-2xl text-white mr-1'>
+                            NEWS HUB
                         </span></Link>
 
                     </div>

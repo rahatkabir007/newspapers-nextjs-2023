@@ -56,7 +56,7 @@ const NewspaperSlider: React.FC<Props> = (props) => {
 
 
     return (
-        <div className='bg-ndarkblue pt-1 pb-2'>
+        <div className='shadow-md bg-white pt-2 pb-3'>
             <Slider
                 {...settings}
                 className='container-x'
