@@ -1,18 +1,21 @@
-import { useSelector } from "react-redux";
-import HomePage from "../components/pages/HomePage/HomePage";
-import { controller } from "../src/state/StateController";
-import { GetServerSidePropsContext, NextPage } from "next";
-import { INewspaper } from "../interfaces/models";
+import React from 'react'
+import AllSeos from '../components/shared/AllSeos'
+import HomePage from '../components/pages/HomePage/HomePage'
 
-interface NewspaperProps {
-  newspaperList: INewspaper[]
+
+interface Props {
 }
 
-
-const index: NextPage<NewspaperProps> = ({ newspaperList }) => {
-  const states = useSelector(() => controller.states);
-  return <HomePage />
-};
+const index: React.FC<Props> = (props) => {
 
 
-export default index;
+
+  return (
+    <>
+      <AllSeos />
+      <HomePage />
+    </>
+  )
+}
+
+export default index
