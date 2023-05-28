@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Disallow: /404
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://newspapers-nextjs-2023.vercel.app
+
+# Sitemaps
+Sitemap: https://newspapers-nextjs-2023.vercel.app/sitemap.xml
+Sitemap: https://newspapers-nextjs-2023.vercel.app/server-sitemap.xml
