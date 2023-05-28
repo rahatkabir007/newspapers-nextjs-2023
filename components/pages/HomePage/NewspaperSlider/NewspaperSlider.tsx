@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import { Jsondata } from '../../../../src/utils/Jsondata';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Props {
 }
@@ -65,9 +66,9 @@ const NewspaperSlider: React.FC<Props> = (props) => {
                     return (
                         <div className='pt-2 px-2' key={item.title}>
                             <div className='flex justify-center items-center'>
-                                <a href={`//${item.url}`} target='_blank'>
+                                <Link href={`/redirect/${item?.url}`} target='_blank'>
                                     <Image src={item.img} alt={item.title} width={100} height={100} className='bg-ngrey' loading='lazy' />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     )

@@ -107,7 +107,7 @@ export class Jsondata {
             "title": "Daily Amar Sangbad",
             "img": "https://www.allbanglanewspaper.xyz/assets/amar-sangbad.com.jpg",
             "category": "banglaNewspapers",
-            "url": "http://www.amarsangbad.com/"
+            "url": "www.amarsangbad.com/"
         },
         {
             "title": "Protidiner Sangbad",
@@ -391,7 +391,7 @@ export class Jsondata {
             "title": "E BD Pratidin",
             "img": "https://www.allbanglanewspaper.xyz/assets/bd-pratidin.com.jpg",
             "category": "ebanglaNewspapers",
-            "url": "http://www.ebdpratidin.com/"
+            "url": "www.ebdpratidin.com/"
         },
         {
             "title": "E Jugantor",
