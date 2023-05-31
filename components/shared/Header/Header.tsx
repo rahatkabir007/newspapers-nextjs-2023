@@ -57,7 +57,7 @@ const Header: React.FC<Props> = (props) => {
                             </button>
                         </div>
                         <div>
-                            <ul className={`block lg:hidden lg:items-center lg:pb-0 absolute lg:static bg-white lg:bg-transparent lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in max-h-[400px] overflow-scroll scrollbar ${open ? 'top-16' : 'top-[-320px]'}`}>
+                            <ul className={`block lg:hidden lg:items-center lg:pb-0 absolute lg:static bg-white lg:bg-transparent lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in max-h-[400px] overflow-scroll scrollbar ${open ? 'top-16' : 'top-[-380px]'}`}>
                                 {
                                     Jsondata.categories.map((item) => (
                                         <li onClick={() => setOpen(!open)} key={item.title} className='lg:mr-8 text-xl lg:my-0 my-4'>
