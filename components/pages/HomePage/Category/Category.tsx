@@ -6,7 +6,7 @@ const Category = () => {
 
         <div className='flex flex-col'>
             <div className="px-5 py-4 bg-ndarkblue rounded">
-                <span className='text-white text-lg lg:text-2xl font-bold font-monda'>
+                <span className='text-white text-lg lg:text-[20px] font-bold font-monda'>
                     Category
                 </span>
             </div>
@@ -15,7 +15,7 @@ const Category = () => {
                     Jsondata.categories.map(item => {
                         return (
                             <div className='text-[13px] cursor-pointer rounded'>
-                                <a className='text-[#6e6e6e] font-ubuntu font-bold hover:text-gray-600' href={`#${item.link}`}>{item.title}</a>
+                                <a className='text-nblack font-ubuntu font-bold hover:text-gray-600' href={`#${item.link}`}>{item.title}</a>
                             </div>
                         )
                     })
