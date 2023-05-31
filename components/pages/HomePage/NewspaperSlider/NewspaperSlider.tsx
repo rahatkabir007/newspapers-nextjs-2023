@@ -67,7 +67,7 @@ const NewspaperSlider: React.FC<Props> = (props) => {
                         <div className='pt-2 px-2' key={item.title}>
                             <div className='flex justify-center items-center'>
                                 <Link href={`/redirect/${item?.url}`} target='_blank'>
-                                    <Image src={item.img} alt={item.title} width={100} height={100} className='bg-ngrey' loading='lazy' />
+                                    <Image src={item.img} alt={item.title} width={150} height={150} className='bg-ngrey' loading='lazy' />
                                 </Link>
                             </div>
                         </div>
